@@ -6,11 +6,15 @@ Operating System   : Ubuntu 18.04 LTS
 
 python version :3.6.9
 
-We’d need to install the ' PyYAML' and 'ruamel_yaml'. 
+We caninstall the ' PyYAML'
 
 Run the command:
 
     pip3 install pyyaml
+
+We’d need to install the 'ruamel_yaml' in example. 
+
+Run the command:
     
     sudo -H pip3 install ruamel.yaml 
 
