@@ -28,18 +28,18 @@ with open("tb_gateway_1.yaml", "w") as f:
     #yaml.dump(myDict, f,default_flow_style = False,sort_keys=False)
     yaml.dump(myDict,f)
 
-list_connetor = []
+list_connector = []
 for i in range(1,11):
 
     data = {'name': 'OPCUA-'+str(i)+'-TEST Connector',
             'type': 'opcua',
             'configuration': 'opcua-'+str(i)+'-test.json'}
             
-    list_connetor.append(data)
+    list_connector.append(data)
 
 
 Data = {
-    'connectors': list_connetor
+    'connectors': list_connector
 }
 
 with open("tb_gateway_1.yaml", "a") as f:
