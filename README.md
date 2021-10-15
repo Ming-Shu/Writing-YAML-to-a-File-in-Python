@@ -6,7 +6,7 @@ Operating System   : Ubuntu 18.04 LTS
 
 python version :3.6.9
 
-We caninstall the ' PyYAML'
+We can install the ' PyYAML'
 
 Run the command:
 
