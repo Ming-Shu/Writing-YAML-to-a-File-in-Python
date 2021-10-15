@@ -1,0 +1,51 @@
+thingsboard:
+  host: 127.0.0.1 #indent(mapping)
+  port: 1883
+  remoteConfiguration: false
+  security:
+    accessToken: MYTOKEN
+storage:
+  type: memory
+  read_records_count: 10
+  max_records_count: 100000
+connectors:
+  - #indent(offset)
+    name: OPCUA-1-TEST Connector  #indent(sequence)
+    type: opcua
+    configuration: opcua-1-test.json
+  -
+    name: OPCUA-2-TEST Connector
+    type: opcua
+    configuration: opcua-2-test.json
+  -
+    name: OPCUA-3-TEST Connector
+    type: opcua
+    configuration: opcua-3-test.json
+  -
+    name: OPCUA-4-TEST Connector
+    type: opcua
+    configuration: opcua-4-test.json
+  -
+    name: OPCUA-5-TEST Connector
+    type: opcua
+    configuration: opcua-5-test.json
+  -
+    name: OPCUA-6-TEST Connector
+    type: opcua
+    configuration: opcua-6-test.json
+  -
+    name: OPCUA-7-TEST Connector
+    type: opcua
+    configuration: opcua-7-test.json
+  -
+    name: OPCUA-8-TEST Connector
+    type: opcua
+    configuration: opcua-8-test.json
+  -
+    name: OPCUA-9-TEST Connector
+    type: opcua
+    configuration: opcua-9-test.json
+  -
+    name: OPCUA-10-TEST Connector
+    type: opcua
+    configuration: opcua-10-test.json
