@@ -20,6 +20,7 @@ Run the command:
 
 referance: 
 https://stackoverflow.com/questions/49747685/python3-no-module-named-ruamel-yaml
+https://stackoverflow.com/questions/56357051/how-to-start-listing-keys-after-a-new-line-in-a-block
 
 YAML referance:
 https://github.com/thingsboard/thingsboard-gateway/blob/master/for_build/etc/thingsboard-gateway/config/tb_gateway.yaml
